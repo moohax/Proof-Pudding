@@ -1,6 +1,6 @@
 # Proof Pudding
 
-This repository contains the code from our ([Will Pearce](https://twitter.com/moo_hax)/[Nick Landers](https://twitter.com/monoxgas)) 2019 DerbyCon presentation **"42: The answer to life, the universe, and everything offensive security"**. It is designed to attack ProofPoint's e-mail scoring system by stealing scored datasets (`core/data/*.csv`) and creating a copy-cat model for abuse. Before diving in, we'd recommend watching the **[presentation here](https://www.youtube.com/watch?v=CsvkYoxtexQ)**, or browse the **[slides here](https://github.com/moohax/Talks/blob/master/slides/Scheming_with_Machines_BSidesLV_19.pdf)**.
+This repository contains the code from our ([Will Pearce](https://twitter.com/moo_hax)/[Nick Landers](https://twitter.com/monoxgas)) 2019 DerbyCon presentation **"42: The answer to life, the universe, and everything offensive security"**. It is designed to attack ProofPoint's e-mail scoring system by stealing scored datasets (`core/data/*.csv`) and creating a copy-cat model for abuse. Before diving in, we'd recommend watching the **[presentation here](https://www.youtube.com/watch?v=CsvkYoxtexQ)**, or browse the **[slides here](https://github.com/moohax/Talks/blob/master/slides/DerbyCon19.pdf)**.
 
 The project core is built on Python3 + Keras. It includes the stolen pre-scored datasets, pre-trained models (`./models/*`), and extracted insights (`./results/*`) from our research. It also exposes functionality for training, scoring, and reversing insights yourself.
 
