@@ -1,0 +1,5 @@
+Keras>=2.2.5
+numpy>=1.17.1
+alive_progress>=1.2.0
+scikit_learn>=0.21.3
+tensorflow
