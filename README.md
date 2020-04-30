@@ -90,5 +90,4 @@ Good Text tokens: `gerald, thanks, fax, questions, blackberry`
 - There is some dead code that we'll revive at some point.
 
 ## Credits
-Nancy Fulda, BYU
-...
+Dr. Nancy Fulda, BYU
