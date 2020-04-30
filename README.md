@@ -1,4 +1,4 @@
-# Proof Pudding
+# Proof Pudding (CVE-2019-20634)
 
 This repository contains the code from our ([Will Pearce](https://twitter.com/moo_hax)/[Nick Landers](https://twitter.com/monoxgas)) 2019 DerbyCon presentation **"42: The answer to life, the universe, and everything offensive security"**. It is designed to attack ProofPoint's e-mail scoring system by stealing scored datasets (`core/data/*.csv`) and creating a copy-cat model for abuse. Before diving in, we'd recommend watching the **[presentation here](https://www.youtube.com/watch?v=CsvkYoxtexQ)**, or browse the **[slides here](https://github.com/moohax/Talks/blob/master/slides/DerbyCon19.pdf)**.
 
@@ -90,5 +90,5 @@ Good Text tokens: `gerald, thanks, fax, questions, blackberry`
 - There is some dead code that we'll revive at some point.
 
 ## Credits
-
+Nancy Fulda, BYU
 ...
